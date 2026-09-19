@@ -1,0 +1,27 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+  color: #1c1c1e;
+  background: #faf9f6;
+  line-height: 1.8;
+}
+h1 { font-size: 24px; margin-bottom: 4px; }
+.sub { color: #6b6b70; margin-bottom: 32px; }
+h2 { font-size: 18px; margin-top: 36px; border-left: 4px solid #007aff; padding-left: 10px; }
+a { color: #007aff; }
+table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid #dcdcd8; font-size: 15px; }
+th { width: 8em; color: #6b6b70; font-weight: 600; }
+.faq-q { font-weight: bold; margin-top: 20px; }
+nav { margin-top: 40px; font-size: 14px; }
+nav a { margin-right: 14px; }
+footer { margin-top: 48px; color: #8e8e93; font-size: 13px; }
+@media (prefers-color-scheme: dark) {
+  body { background: #0e0e0f; color: #ececee; }
+  .sub, th, footer { color: #9a9aa0; }
+  th, td { border-bottom-color: #2c2c2e; }
+  a { color: #0a84ff; }
+  h2 { border-left-color: #0a84ff; }
+}
